@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>c0c4f729-4595-4b85-9437-3814aaa06504</ProjectGuid>
+    <ProjectGuid>c7ff8a62-518a-4581-a8fa-fed59ebcb434</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Parser2.py</StartupFile>
+    <StartupFile>Table_parsing.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Parser2</Name>
-    <RootNamespace>Parser2</RootNamespace>
+    <Name>Table-parsing</Name>
+    <RootNamespace>Table-parsing</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Parser2.py" />
+    <Compile Include="Table_parsing.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

@@ -10,7 +10,6 @@ def get_data(html):
     h1 = soup.find('div', id = 'home-welcome').find('h1')
     return h1.text
 
-
 def main():
     url = 'https://wordpress.org/'
 

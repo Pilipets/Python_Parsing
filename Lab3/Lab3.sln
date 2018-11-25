@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Parser1", "Parser1\Parser1.pyproj", "{61220509-A9DC-4D61-A3D8-48B86BF9913E}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Basics", "Parser1\Basics.pyproj", "{61220509-A9DC-4D61-A3D8-48B86BF9913E}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Table-parsing", "Table-parsing\Table-parsing.pyproj", "{C7FF8A62-518A-4581-A8FA-FED59EBCB434}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,12 @@ Global
 		{61220509-A9DC-4D61-A3D8-48B86BF9913E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61220509-A9DC-4D61-A3D8-48B86BF9913E}.Release|x64.ActiveCfg = Release|Any CPU
 		{61220509-A9DC-4D61-A3D8-48B86BF9913E}.Release|x86.ActiveCfg = Release|Any CPU
+		{C7FF8A62-518A-4581-A8FA-FED59EBCB434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7FF8A62-518A-4581-A8FA-FED59EBCB434}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C7FF8A62-518A-4581-A8FA-FED59EBCB434}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C7FF8A62-518A-4581-A8FA-FED59EBCB434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7FF8A62-518A-4581-A8FA-FED59EBCB434}.Release|x64.ActiveCfg = Release|Any CPU
+		{C7FF8A62-518A-4581-A8FA-FED59EBCB434}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

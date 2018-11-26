@@ -7,6 +7,10 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Basics", "Parser1\Basics.py
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Table-parsing", "Table-parsing\Table-parsing.pyproj", "{C7FF8A62-518A-4581-A8FA-FED59EBCB434}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Multiple_Page(olx)", "Multiple_Page(olx)\Multiple_Page(olx).pyproj", "{FD7EE27F-5288-43CA-A9D8-AE46192A54AE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Multiple_Page(coinmarket)", "Multiple_Page(coinmarket)\Multiple_Page(coinmarket).pyproj", "{1669DE68-870C-49AB-9CFC-991E4A89D629}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,18 @@ Global
 		{C7FF8A62-518A-4581-A8FA-FED59EBCB434}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7FF8A62-518A-4581-A8FA-FED59EBCB434}.Release|x64.ActiveCfg = Release|Any CPU
 		{C7FF8A62-518A-4581-A8FA-FED59EBCB434}.Release|x86.ActiveCfg = Release|Any CPU
+		{FD7EE27F-5288-43CA-A9D8-AE46192A54AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7EE27F-5288-43CA-A9D8-AE46192A54AE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FD7EE27F-5288-43CA-A9D8-AE46192A54AE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FD7EE27F-5288-43CA-A9D8-AE46192A54AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7EE27F-5288-43CA-A9D8-AE46192A54AE}.Release|x64.ActiveCfg = Release|Any CPU
+		{FD7EE27F-5288-43CA-A9D8-AE46192A54AE}.Release|x86.ActiveCfg = Release|Any CPU
+		{1669DE68-870C-49AB-9CFC-991E4A89D629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1669DE68-870C-49AB-9CFC-991E4A89D629}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1669DE68-870C-49AB-9CFC-991E4A89D629}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1669DE68-870C-49AB-9CFC-991E4A89D629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1669DE68-870C-49AB-9CFC-991E4A89D629}.Release|x64.ActiveCfg = Release|Any CPU
+		{1669DE68-870C-49AB-9CFC-991E4A89D629}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

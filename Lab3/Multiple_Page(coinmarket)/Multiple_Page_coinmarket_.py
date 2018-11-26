@@ -50,7 +50,6 @@ def main():
     url = 'https://coinmarketcap.com/'
     #get_page_data(get_html(url))
 
-    tmp = 0
     while True:
         html = get_html(url)
         get_page_data(html)

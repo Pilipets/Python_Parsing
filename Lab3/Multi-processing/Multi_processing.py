@@ -55,7 +55,7 @@ def main():
     pagesAmount = 10
     urls = [url % (i) for i in range(1,pagesAmount)]
 
-    with Pool(20) as p:
+    with Pool(200) as p:
         p.map(make_all,urls)
     
 if __name__ == '__main__':

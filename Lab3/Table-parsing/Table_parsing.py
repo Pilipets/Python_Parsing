@@ -8,7 +8,7 @@ def get_html(url):
     return response.text
 
 def write_csv(data):
-    with open('coinsmarket.csv','a') as file:
+    with open('coinsmarket.csv','a', newline='') as file:
         writer = csv.writer(file)
         
         writer.writerow([data['name'],
